@@ -30,22 +30,14 @@
 
 <h2>Configuração dos security groups</h2>
     <li>EFS-SG - Grupo de segurança da EFS</li>
-        | Type | Protocol | Port Range |   Source  |
-        |:----:|:--------:|:----------:|:---------:|
-        | HTTP | TCP      | 80         | 0.0.0.0/0 |
+       <img src="IMG/EFS.png">
     <li>EC2-Instance-SG - Grupo de segurança das instancias EC2</li>
-        | Type | Protocol | Port Range |   Source  |
-        |:----:|:--------:|:----------:|:---------:|
-        | HTTP | TCP      | 80         | 0.0.0.0/0 |
+        <img src="IMG/EC2SG.png">
     <li>EC2-SG - Grupo de segurança do Endpoint</li>
-        | Type | Protocol | Port Range |   Source  |
-        |:----:|:--------:|:----------:|:---------:|
-        | HTTP | TCP      | 80         | 0.0.0.0/0 |
+        <img src="IMG/EC2.png">
     <li>LB-SG - Grupo de segurança do load balancer</li>
-        | Type | Protocol | Port Range |   Source  |
-        |:----:|:--------:|:----------:|:---------:|
-        | HTTP | TCP      | 80         | 0.0.0.0/0 |
+        <img src="IMG/LB.png">
     <li>RDS-SG - Grupo de segurança da RDS</li>
-        | Type | Protocol | Port Range |   Source  |
-        |:----:|:--------:|:----------:|:---------:|
-        | HTTP | TCP      | 80         | 0.0.0.0/0 |
+        <img src="IMG/RDS.png">
+
+<h2>Criação da VPC</h2>
